@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "167816100521",
+    "project_id": "the-turn-up",
+    "storage_bucket": "the-turn-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167816100521:android:f72e5891b9fb7bc59a87b8",
+        "android_client_info": {
+          "package_name": "com.example.turn_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167816100521-qcvq4hnussn5d05e5f86r40ba80jr1dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPkAFAvXZLtOlICYIzF-63Ieng6ThmhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167816100521-qcvq4hnussn5d05e5f86r40ba80jr1dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
