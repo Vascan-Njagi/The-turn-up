@@ -11,11 +11,13 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/grey"
+        android:background="@color/mid_night_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +26,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_height="wrap_content"
                 android:background="@color/mid_night_blue"
                 android:orientation="vertical">
 
@@ -61,217 +63,107 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
+
                 <Button
                     android:id="@+id/account"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="@color/grey"
                     android:onClick="showAccountDetails"
                     android:text="@string/account"
+                    android:textColor="@color/black"
                     tools:layout_editor_absoluteX="85dp"
-                    tools:layout_editor_absoluteY="562dp" />
+                    tools:layout_editor_absoluteY="562dp"
+                    tools:targetApi="lollipop" />
 
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/button"
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="452dp">
 
-            <Button
-                android:id="@+id/button"
+
+                <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/turn_up_one"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_two"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_three"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_four"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_one"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_two"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_three"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/turn_up_four"
+                    tools:layout_editor_absoluteX="117dp"
+                    tools:layout_editor_absoluteY="134dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/red"
-                android:text="Testing Scrolling Effect"
-                tools:layout_editor_absoluteX="71dp"
-                tools:layout_editor_absoluteY="580dp" />
-
+             </LinearLayout>
 
         </LinearLayout>
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
